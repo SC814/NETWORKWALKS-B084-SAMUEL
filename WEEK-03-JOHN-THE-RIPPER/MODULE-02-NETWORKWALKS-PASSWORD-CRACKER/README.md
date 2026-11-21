@@ -46,7 +46,8 @@ This file served as the target for the password-recovery exercise.
 
 **Screenshot:**
 
-![Downloaded PDF](screenshots/01-downloaded-pdf.png)
+<img width="1594" height="825" alt="locked pdf" src="https://github.com/user-attachments/assets/18a2a5a8-241d-4931-9759-b29f98d3fdb0" />
+
 
 ### Step 2: Extracting the PDF Hash
 
@@ -58,7 +59,8 @@ I copied the complete hash for the next stage of the exercise.
 
 **Screenshot:**
 
-![PDF Hash Extraction](screenshots/02-pdf-hash-extraction.png)
+<img width="1600" height="772" alt="image" src="https://github.com/user-attachments/assets/f3229182-2514-41f3-aa19-8dd101a37018" />
+
 
 ### Step 3: Submitting the Hash to the Password Cracker
 
@@ -68,7 +70,8 @@ This allowed the tool to begin testing password candidates against the extracted
 
 **Screenshot:**
 
-![Hash Submitted](screenshots/03-hash-submitted.png)
+<img width="1580" height="821" alt="image" src="https://github.com/user-attachments/assets/44f313eb-36a1-43df-a2a0-dde04d780603" />
+
 
 ### Step 4: Starting the Password-Cracking Process
 
@@ -78,7 +81,8 @@ I allowed the tool to process the hash and attempt to identify the matching pass
 
 **Screenshot:**
 
-![Password Cracking Process](screenshots/04-password-cracking-process.png)
+<img width="1597" height="781" alt="passwrd found" src="https://github.com/user-attachments/assets/b45b3fed-9fd9-478a-8e2b-0e59947b996e" />
+
 
 ### Step 5: Recovering the Password
 
@@ -90,7 +94,8 @@ The recovered password was:
 
 **Screenshot:**
 
-![Recovered Password](screenshots/05-recovered-password.png)
+<img width="1600" height="774" alt="passworddd" src="https://github.com/user-attachments/assets/ab08b98d-0c28-4d43-8ef1-8a4457d08bdc" />
+
 
 ### Step 6: Verifying the Recovered Password
 
@@ -100,7 +105,8 @@ The document opened successfully, confirming that the password-recovery exercise
 
 **Screenshot:**
 
-![PDF Successfully Opened](screenshots/06-pdf-opened-successfully.png)
+<img width="1597" height="725" alt="congra" src="https://github.com/user-attachments/assets/85a57d18-53e1-484b-90f4-46b284009304" />
+
 
 ## 📚 What I Learned
 
