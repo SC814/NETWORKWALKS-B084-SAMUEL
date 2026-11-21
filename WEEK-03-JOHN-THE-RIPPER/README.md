@@ -1,4 +1,5 @@
 # NETWORKWALKS | TOOLS LAB – WEEK 03
+
 ## PDF Password Recovery with John the Ripper & Johnny
 
 <p align="center">
@@ -27,8 +28,8 @@ The exercise involved extracting a password hash, configuring the required tools
 ## 🎯 Project Objectives
 
 - Understand the fundamentals of password hashing and password recovery.
-- Install and configure John the Ripper and Johnny.
 - Extract a password hash from a protected PDF document.
+- Configure John the Ripper and Johnny.
 - Load the extracted hash into Johnny.
 - Initiate a password recovery attempt.
 - Troubleshoot configuration and application issues.
@@ -50,25 +51,18 @@ Downloaded John the Ripper Jumbo and Johnny for Windows.
 
 **Evidence:**
 
-![Downloaded Tools](screenshots/01-downloaded-tools.png)
+<img width="1597" height="817" alt="image" src="https://github.com/user-attachments/assets/596af8f2-61ae-4037-a60a-423772baaf46" />
 
-### 02. Installing Johnny
 
-Installed Johnny on the Windows system and launched the application.
-
-**Evidence:**
-
-![Johnny Installation](screenshots/02-johnny-installation.png)
-
-### 03. Extracting the PDF Hash
+### 02. Extracting the PDF Hash
 
 Used a PDF hash extraction tool to extract the password hash from the protected PDF file. Saved the extracted hash in a text file named `pass.txt`.
 
 **Evidence:**
 
-![Extracted PDF Hash](screenshots/03-extracted-hash.png)
+<img width="1600" height="822" alt="image" src="https://github.com/user-attachments/assets/f6d73fd7-02a8-4c14-8f37-78c8b8d11427" />
 
-### 04. Configuring John the Ripper
+### 03. Configuring John the Ripper
 
 Extracted the John the Ripper archive and navigated to its `run` directory to locate the executable.
 
@@ -76,31 +70,35 @@ An issue occurred during configuration because an RVA process was interfering wi
 
 **Evidence:**
 
-![John Configuration](screenshots/04-john-configuration.png)
+<img width="1320" height="594" alt="image" src="https://github.com/user-attachments/assets/f8df23fd-d1ec-4aae-b957-ddacf4542feb" />
 
-### 05. Loading the Extracted Hash
+
+### 04. Loading the Extracted Hash
 
 Loaded the `pass.txt` file containing the extracted PDF hash into Johnny in preparation for the recovery attempt.
 
 **Evidence:**
 
-![Hash Loaded](screenshots/05-hash-loaded.png)
+<img width="1600" height="855" alt="image" src="https://github.com/user-attachments/assets/a2f32fcf-8e92-4d89-b7ea-285159e9180a" />
 
-### 06. Initiating Password Recovery
+
+### 05. Initiating Password Recovery
 
 Started the password recovery process using the loaded PDF hash.
 
 **Evidence:**
 
-![Recovery Process](screenshots/06-recovery-process.png)
+<img width="1600" height="849" alt="image" src="https://github.com/user-attachments/assets/c9d32d97-84ca-4837-931c-8b5548b8b3dc" />
 
-### 07. Final Result
+
+### 06. Final Result
 
 Captured the final application state as evidence of the completed practical exercise.
 
 **Evidence:**
 
-![Final Result](screenshots/07-final-result.png)
+<img width="825" height="744" alt="image" src="https://github.com/user-attachments/assets/ecccf335-7fdb-46a3-82fb-455610dff90a" />
+
 
 ## 🧩 Challenges & Troubleshooting
 
@@ -120,7 +118,7 @@ This experience reinforced the importance of troubleshooting and understanding h
 
 ## 🏁 Conclusion
 
-The Week 03 practical provided hands-on experience with John the Ripper and Johnny, from tool installation and hash extraction to configuration and password recovery.
+The Week 03 practical provided hands-on experience with John the Ripper and Johnny, from downloading the tools and extracting a PDF hash to configuration and password recovery.
 
 It strengthened my understanding of password auditing workflows and improved my troubleshooting skills.
 
@@ -135,7 +133,7 @@ It strengthened my understanding of password auditing workflows and improved my 
 ---
 
 <p align="center">
-  **NETWORKWALKS | CYBERSECURITY TOOLS LAB**
+  <strong>NETWORKWALKS | CYBERSECURITY TOOLS LAB</strong>
   <br>
   <i>Learn. Practice. Document. Improve.</i>
 </p>
